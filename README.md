@@ -25,7 +25,6 @@ you keep.**
 
 ### Screenshot
 
-![Desktop](./images/Screenshot-desktop.png)
 ![Mobile](./images/Screenshot-mobile.png)
 
 ### Links
