@@ -36,10 +36,13 @@ body {
   padding-bottom: 0;
   color: hsl(218, 44%, 22%);
   font-weight: 700;
+  font-size: 20px;
 }
 .qr-details {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
+  width: 100%;
+  font-size: 14px;
 }
 
 .shadow {
@@ -49,9 +52,6 @@ body {
 
 @media (max-width: 425px) {
   .qr-wrapper {
-    /* height: 100vh;
-    padding: 6em 0;
-    text-align: center; */
     margin: 0 auto;
     clear: both;
     min-width: 220px;
