@@ -13,17 +13,18 @@ body {
   overflow-y: hidden;
 }
 .qr-wrapper {
-  height: 200px;
-  padding: 8em 0;
+  height: 100vh;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .qr-container {
   display: flex;
   flex-direction: column;
   width: 25%;
-  margin: auto;
   background-color: hsl(0, 0%, 100%);
-  padding: 12px;
+  padding: 14px;
   border-radius: 14px;
 }
 
@@ -42,7 +43,7 @@ body {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
   width: 100%;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .shadow {
@@ -51,14 +52,16 @@ body {
 }
 
 @media (max-width: 425px) {
-  .qr-wrapper {
-    margin: 0 auto;
-    clear: both;
-    min-width: 220px;
-  }
+  /* .qr-wrapper {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
 
   .qr-container {
-    width: 82%;
+    width: 91%;
   }
   .qr-heading {
     margin-bottom: 0;
